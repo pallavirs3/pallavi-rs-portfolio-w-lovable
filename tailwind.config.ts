@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				portfolio: {
+					purple: '#6B46C1',
+					lightpurple: '#9F7AEA',
+					darkpurple: '#553C9A',
+					bg: '#F7FAFC',
+					dark: '#1A202C'
 				}
 			},
 			borderRadius: {
@@ -84,11 +92,49 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				typing: {
+					'0%': {
+						width: '0%',
+						visibility: 'hidden'
+					},
+					'100%': {
+						width: '100%'
+					}
+				},
+				blink: {
+					'50%': {
+						borderColor: 'transparent'
+					},
+					'100%': {
+						borderColor: 'hsl(var(--primary))'
+					}
+				},
+				fadeIn: {
+					'0%': { opacity: '0', transform: 'translateY(10px)' },
+					'100%': { opacity: '1', transform: 'translateY(0)' }
+				},
+				wave: {
+					'0%': { transform: 'rotate(0.0deg)' },
+					'10%': { transform: 'rotate(14deg)' },
+					'20%': { transform: 'rotate(-8deg)' },
+					'30%': { transform: 'rotate(14deg)' },
+					'40%': { transform: 'rotate(-4deg)' },
+					'50%': { transform: 'rotate(10.0deg)' },
+					'60%': { transform: 'rotate(0.0deg)' },
+					'100%': { transform: 'rotate(0.0deg)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				typing: 'typing 2s steps(20) infinite alternate, blink .7s infinite',
+				fadeIn: 'fadeIn 1s ease-in-out',
+				wave: 'wave 1.5s infinite'
+			},
+			fontFamily: {
+				sans: ['Inter', 'sans-serif'],
+				heading: ['Poppins', 'sans-serif']
 			}
 		}
 	},
