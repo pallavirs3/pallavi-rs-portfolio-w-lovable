@@ -1,6 +1,6 @@
 
 import { useEffect } from "react";
-import { Code, Dumbbell, Lock, User } from "lucide-react";
+import { Code, Dumbbell, Lock } from "lucide-react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import ScrollReveal from "../components/ScrollReveal";
@@ -57,7 +57,7 @@ const Index = () => {
                 <div className="relative">
                   <div className="polaroid">
                     <img 
-                      src="/placeholder.svg" 
+                      src="/lovable-uploads/a46dc97e-6851-477f-a952-246f68dd4032.png" 
                       alt="Pallavi" 
                       className="w-64 h-72 object-cover object-center"
                     />
@@ -95,7 +95,7 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <ScrollReveal delay={200}>
               <img 
-                src="/placeholder.svg" 
+                src="/lovable-uploads/a46dc97e-6851-477f-a952-246f68dd4032.png" 
                 alt="About Pallavi" 
                 className="rounded-lg shadow-lg w-full h-auto max-h-96 object-cover object-center"
               />
@@ -283,6 +283,7 @@ const Index = () => {
                 description="A basic student record management system hosted on a virtual machine using Apache2 server. Built with PHP and MySQL."
                 link="#"
                 linkText="View Project"
+                image="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
               />
             </ScrollReveal>
             
@@ -292,6 +293,7 @@ const Index = () => {
                 description="Explored basic vulnerabilities and practiced ethical hacking using Nmap, Wireshark, and Bandit wargames."
                 link="#"
                 linkText="View Details"
+                image="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
               />
             </ScrollReveal>
           </div>
