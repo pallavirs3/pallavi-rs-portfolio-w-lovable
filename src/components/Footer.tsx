@@ -19,21 +19,25 @@ const Footer = () => {
             <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-4">Connect</h3>
             <div className="flex space-x-4">
               <a 
-                href="mailto:contact@example.com" 
+                href="mailto:pallavi4740@gmail.com" 
                 className="text-gray-500 hover:text-portfolio-purple transition-colors"
                 aria-label="Email"
               >
                 <Mail size={20} />
               </a>
               <a 
-                href="#" 
+                href="https://github.com/pallavirs3" 
+                target="_blank" 
+                rel="noopener noreferrer"
                 className="text-gray-500 hover:text-portfolio-purple transition-colors"
                 aria-label="GitHub"
               >
                 <Github size={20} />
               </a>
               <a 
-                href="#" 
+                href="https://www.linkedin.com/in/pallavi-r-s-7234a820b/" 
+                target="_blank" 
+                rel="noopener noreferrer"
                 className="text-gray-500 hover:text-portfolio-purple transition-colors"
                 aria-label="LinkedIn"
               >
@@ -45,7 +49,7 @@ const Footer = () => {
         
         <div className="mt-8 pt-8 border-t border-gray-200">
           <p className="text-center text-gray-500 text-sm">
-            "Built with curiosity and caffeine. Designed by Pallavi – 2025"
+            "Built with curiosity and Love for Dev. Designed by Pallavi – 2025"
           </p>
           <p className="text-center text-gray-400 text-xs mt-2">
             Computer Science Engineering Student | Fitness Enthusiast

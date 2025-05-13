@@ -1,4 +1,3 @@
-
 import { useEffect } from "react";
 import { Code, Dumbbell, Lock } from "lucide-react";
 import Navbar from "../components/Navbar";
@@ -30,7 +29,7 @@ const Index = () => {
                   Hi, I'm Pallavi 👋
                 </h2>
                 <h1 className="text-4xl md:text-5xl font-heading font-bold leading-tight mb-4">
-                  Computer Science Student & <span className="text-portfolio-purple">Fitness Enthusiast</span>
+                  CSE Student and <span className="text-portfolio-purple">CyberSec Enthusiast</span>
                 </h1>
                 <p className="text-xl text-gray-600 typing-effect overflow-hidden whitespace-nowrap mb-8">
                   Cybersecurity Learner | Programming | Wellness
@@ -104,22 +103,22 @@ const Index = () => {
             <ScrollReveal delay={400}>
               <div className="space-y-6">
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  I'm a passionate learner currently studying Computer Science Engineering (2022–2026). I did my Pre-University Course (PUC) at Kadambakshu College.
+                  I'm a passionate learner currently studying Computer Science Engineering (2022–2026). I did my Pre-University Course (PUC) at Kadamba P.U College.
                 </p>
                 <p className="text-lg text-gray-700 leading-relaxed">
                   I'm deeply interested in cybersecurity, programming, and digital wellness. When I'm not coding or learning about cyber attacks, you'll find me in the gym or creating meaningful content around health and self-discipline.
                 </p>
                 <div className="flex gap-8 mt-8">
                   <div>
-                    <h3 className="font-heading font-semibold text-3xl text-portfolio-purple">2+</h3>
+                    <h3 className="font-heading font-semibold text-3xl text-portfolio-purple">3+</h3>
                     <p className="text-gray-500">Years of Learning</p>
                   </div>
                   <div>
-                    <h3 className="font-heading font-semibold text-3xl text-portfolio-purple">5+</h3>
+                    <h3 className="font-heading font-semibold text-3xl text-portfolio-purple">3+</h3>
                     <p className="text-gray-500">Projects</p>
                   </div>
                   <div>
-                    <h3 className="font-heading font-semibold text-3xl text-portfolio-purple">3+</h3>
+                    <h3 className="font-heading font-semibold text-3xl text-portfolio-purple">5+</h3>
                     <p className="text-gray-500">Technologies</p>
                   </div>
                 </div>
@@ -158,7 +157,7 @@ const Index = () => {
                     <h3 className="text-lg font-heading font-semibold">Pre-University Course (PUC)</h3>
                     <span className="text-portfolio-purple font-medium">Completed 2022</span>
                   </div>
-                  <p className="text-gray-600">Studied at Kadambakshu College with a focus on science and mathematics, creating a strong foundation for my engineering education.</p>
+                  <p className="text-gray-600">Studied at Kadamba P.U College with a focus on science and mathematics, creating a strong foundation for my engineering education.</p>
                 </div>
               </div>
             </ScrollReveal>
@@ -319,7 +318,7 @@ const Index = () => {
                     type="text" 
                     id="name" 
                     className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-portfolio-purple focus:border-portfolio-purple"
-                    placeholder="John Doe"
+                    placeholder="Pallavi"
                   />
                 </div>
                 
@@ -329,7 +328,7 @@ const Index = () => {
                     type="email" 
                     id="email" 
                     className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-portfolio-purple focus:border-portfolio-purple"
-                    placeholder="john@example.com"
+                    placeholder="pallavi4740@gmail.com"
                   />
                 </div>
                 
@@ -363,8 +362,8 @@ const Index = () => {
                 
                 <div>
                   <h3 className="text-xl font-heading font-semibold mb-4">Email Address</h3>
-                  <a href="mailto:YourEmail@example.com" className="text-portfolio-purple hover:underline">
-                    YourEmail@example.com
+                  <a href="mailto:pallavi4740@gmail.com" className="text-portfolio-purple hover:underline">
+                    pallavi4740@gmail.com
                   </a>
                 </div>
                 
